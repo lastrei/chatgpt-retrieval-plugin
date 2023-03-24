@@ -159,6 +159,7 @@ pip install poetry
 Create a new virtual environment that uses Python 3.10:
 
 ```
+poetry env use /miniconda3/envs/py37/bin/python
 poetry env use python3.10
 poetry shell
 ```
